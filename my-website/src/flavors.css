@@ -1,0 +1,30 @@
+.flavors-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #ffffff;
+}
+
+.flavor-item {
+  text-align: center;
+}
+
+.flavor-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.flavor-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.flavor-item p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #ffffff;
+}
